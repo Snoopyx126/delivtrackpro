@@ -189,7 +189,7 @@ const Login = () => {
                     <div className="flex justify-between items-center">
                         <label className="text-xs font-semibold uppercase text-muted-foreground">Mot de passe</label>
                         {isLoginMode && (
-                            <Link to="/forgot-password" className="text-xs text-primary hover:underline">Oublié ?</Link>
+                            <Link to="/forgot-password" class="text-xs text-primary hover:underline">Oublié ?</Link>
                         )}
                     </div>
                     <div className="relative">
